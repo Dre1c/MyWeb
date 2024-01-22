@@ -1,0 +1,326 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyWebApi</name>
+    </assembly>
+    <members>
+        <member name="M:MyWebApi.Controllers.AssetsController.GetAll(MyWebApi.ContractPortfolio.GetAssetsResponse)">
+            <summary>
+            Получить все записи
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MyWebApi.Controllers.AssetsController.GetById(System.Int32)">
+            <summary>
+            Получить информацию о определенной записи
+            </summary>
+            <param name="id">Актив</param>
+            <returns></returns>
+        </member>
+        <member name="M:MyWebApi.Controllers.AssetsController.Add(MyWebApi.ContractPortfolio.CreateAssetsRequest)">
+             <summary>
+             Добавить актив
+             </summary>
+              <remarks>
+             Пример запроса:
+            
+                 POST /Todo
+                 {
+                     "assetName" : "0",
+                     "currency" : "sdf",
+                     "assetType" : "0",
+                     "theDate" : "2024-01-19T08:57:13.353Z", 
+                     "addedTime": "2024-01-19T08:57:13.353Z",
+                     "addedBy": 0
+                 }
+            
+             </remarks>
+             <param name="request">актив</param>
+             <returns></returns>
+        </member>
+        <member name="M:MyWebApi.Controllers.AssetsController.Delete(System.Int32)">
+            <summary>
+            Удалить все записи 
+            </summary>
+            <param name="id">актив</param>
+            <returns></returns>
+        </member>
+        <member name="M:MyWebApi.Controllers.LotController.GetAll">
+            <summary>
+            Получить все записи
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MyWebApi.Controllers.LotController.GetById(System.Int32)">
+            <summary>
+            Получить информацию о определенной записи
+            </summary>
+            <param name="id">Лот</param>
+            <returns></returns>
+        </member>
+        <member name="M:MyWebApi.Controllers.LotController.Add(MyWebApi.ContractPortfolio.CreateLotRequest)">
+             <summary>
+             Создание нового лота
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+                 POST /Todo
+                 {
+                     "usersId" : "0",
+                     "portfolioName" : "sdf",
+                     "balance" : "0",
+                     "addedTime": "2024-01-19T08:57:13.353Z",
+                     "addedBy": 0
+                 }
+            
+             </remarks>
+             <param name="request">лот</param>
+             <returns></returns>
+        </member>
+        <member name="M:MyWebApi.Controllers.LotController.Update(System.Int32,MyWebApi.ContractPortfolio.UpdateLotRequest)">
+             <summary>
+             Редактирование лота
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+                 POST /Todo
+                 {
+                     "usersId" : "0",
+                     "portfolioName" : "sdf",
+                     "balance" : "0",
+                     "addedTime": "2024-01-19T08:57:13.353Z",
+                     "addedBy": 0
+                 }
+            
+             </remarks>
+             <param name="update">Лот</param>
+             <returns></returns>
+        </member>
+        <member name="M:MyWebApi.Controllers.LotController.Delete(System.Int32)">
+            <summary>
+            Удаление записи
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyWebApi.Controllers.MarketDataController.GetAll">
+            <summary>
+            Получить все записи
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MyWebApi.Controllers.MarketDataController.GetById(System.Int32)">
+            <summary>
+            Получить информацию о определенной записи
+            </summary>
+            <param name="id">Маркет</param>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:MyWebApi.Controllers.MarketDataController.Add(MyWebApi.Contracts.CreateMarketDataRequest)" -->
+        <member name="M:MyWebApi.Controllers.MarketDataController.Update(System.Int32,MyWebApi.Contracts.UpdateMarketDataRequest)">
+             <summary>
+             Изменение записи
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+                 POST /Todo
+                 {
+                     "assetId" : 0,
+                     "price" : 223,
+                     "assetCreationDate" : "2024-01-19T08:57:13.353Z",
+                     "addedTime": "2024-01-19T08:57:13.353Z",
+                     "addedBy": 0
+                 }
+            
+             </remarks>
+             <param name="marketData"></param>
+             <returns></returns>
+        </member>
+        <member name="M:MyWebApi.Controllers.MarketDataController.Delete(System.Int32)">
+            <summary>
+            Удаление записи
+            </summary>
+            <param name="id">Маркет</param>
+            <returns></returns>
+        </member>
+        <member name="M:MyWebApi.Controllers.PortfolioController.GetAll">
+            <summary>
+            Получить все записи
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MyWebApi.Controllers.PortfolioController.GetById(System.Int32)">
+            <summary>
+            Получить информацию о определенной записи
+            </summary>
+            <param name="id">Портфель</param>
+            <returns></returns>
+        </member>
+        <member name="M:MyWebApi.Controllers.PortfolioController.Add(MyWebApi.ContractPortfolio.CreatePortfolioRequest)">
+             <summary>
+             Создание нового портфеля
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+                 POST /Todo
+                 {
+                     "usersId" : "0",
+                     "portfolioName" : "sdf",
+                     "balance" : "0",
+                     "addedTime": "2024-01-19T08:57:13.353Z",
+                     "addedBy": 0
+                 }
+            
+             </remarks>
+             <param name="request">Портфель</param>
+             <returns></returns>
+        </member>
+        <member name="M:MyWebApi.Controllers.PortfolioController.Update(System.Int32,MyWebApi.ContractPortfolio.UpdatePortfolioRequest)">
+             <summary>
+             Изменение данных о портфеле
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+                 POST /Todo
+                 {
+                     "usersId" : "0",
+                     "portfolioName" : "sdf",
+                     "balance" : "0",
+                     "addedTime": "2024-01-19T08:57:13.353Z",
+                     "addedBy": 0
+                 }
+            
+             </remarks>
+             <param name="update">Портфель</param>
+             <returns></returns>
+        </member>
+        <member name="M:MyWebApi.Controllers.PortfolioController.Delete(System.Int32)">
+            <summary>
+            Удаление записи
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyWebApi.Controllers.TransactionsController.GetAll">
+            <summary>
+            Получить все записи
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MyWebApi.Controllers.TransactionsController.GetById(System.Int32)">
+            <summary>
+            Получить информацию о определенной транзакции
+            </summary>
+            <param name="id">Транзакция</param>
+            <returns></returns>
+        </member>
+        <member name="M:MyWebApi.Controllers.TransactionsController.Add(MyWebApi.ContractTransactions.CreateTransactionsRequest)">
+             <summary>
+             Создание новой транзакции
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+                 POST /Todo
+                 {
+                     "portfolioId" : "0",
+                     "userId" : "0",
+                     "assetId" : "0",
+                     "price" : 3500,
+                     "theDate" : "2024-01-19T08:57:13.353Z",
+                     "addedTime": "2024-01-19T08:57:13.353Z",
+                     "addedBy": 0
+                 }
+            
+             </remarks>
+             <param name="request">Транзакция</param>
+             <returns></returns>
+        </member>
+        <member name="M:MyWebApi.Controllers.TransactionsController.Update(System.Int32,MyWebApi.ContractTransactions.UpdateTransactionsRequest)">
+             <summary>
+             Изменение данных транзакции
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+                 POST /Todo
+                 {
+                     "portfolioId" : "0",
+                     "userId" : "0",
+                     "assetId" : "0",
+                     "price" : 3500,
+                     "theDate" : "2024-01-19T08:57:13.353Z",
+                     "addedTime": "2024-01-19T08:57:13.353Z",
+                     "addedBy": 0
+                 }
+            
+             </remarks>
+             <param name="id">ID транзакции</param>
+             <param name="update">Транзакция</param>
+             <returns></returns>
+        </member>
+        <member name="M:MyWebApi.Controllers.TransactionsController.Delete(System.Int32)">
+            <summary>
+            Удаление записи
+            </summary>
+            <param name="id">Транзакция</param>
+            <returns></returns>
+        </member>
+        <member name="M:MyWebApi.Controllers.UsersController.GetById(System.Int32)">
+            <summary>
+            Получить информацию о определенном пользователе
+            </summary>
+            <param name="id">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:MyWebApi.Controllers.UsersController.Add(MyWebApi.Contracts.CreateUserRequest)">
+             <summary>
+             Создание нового пользователя
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+                 POST /Todo
+                 {
+                     "usersName": "Geroy",
+                     "pasword": "qwerty",
+                     "addedTime": "2024-01-19T08:57:13.353Z",
+                     "addedBy": 0, 
+                 }
+            
+             </remarks>
+             <param name="request">Пользователь</param>
+             <returns></returns>
+        </member>
+        <member name="M:MyWebApi.Controllers.UsersController.Update(System.Int32,MyWebApi.Contracts.UpdateUserRequest)">
+             <summary>
+             Изменение данных пользователя
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+                 {
+                    "usersName": "Geroy",
+                     "pasword": "qwerty",
+                     "addedTime": "2024-01-19T08:57:13.353Z",
+                     "addedBy": 0, 
+                 }
+            
+             </remarks>
+             <param name="update">Пользователь</param>
+             <returns></returns>
+        </member>
+        <member name="M:MyWebApi.Controllers.UsersController.Delete(System.Int32)">
+            <summary>
+            Удалить пользователя
+            </summary>
+            <param name="id">Пользователь</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

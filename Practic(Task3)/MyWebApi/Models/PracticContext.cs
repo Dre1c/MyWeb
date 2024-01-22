@@ -34,7 +34,7 @@ public partial class PracticContext : DbContext
             entity.HasKey(e => e.AssetId).HasName("PK__Assets__991B5946DA7FE951");
 
             entity.Property(e => e.AssetId)
-                .ValueGeneratedNever()
+                .ValueGeneratedOnAdd()
                 .HasColumnName("Asset_ID");
             entity.Property(e => e.AddedBy).HasColumnName("Added_by");
             entity.Property(e => e.AddedTime)
@@ -70,7 +70,7 @@ public partial class PracticContext : DbContext
             entity.ToTable("Lot");
 
             entity.Property(e => e.LotId)
-                .ValueGeneratedNever()
+                .ValueGeneratedOnAdd()
                 .HasColumnName("Lot_ID");
             entity.Property(e => e.AddedBy).HasColumnName("Added_by");
             entity.Property(e => e.AddedTime)
@@ -115,7 +115,7 @@ public partial class PracticContext : DbContext
             entity.ToTable("Market_Data");
 
             entity.Property(e => e.MarketId)
-                .ValueGeneratedNever()
+                .ValueGeneratedOnAdd()
                 .HasColumnName("Market_ID");
             entity.Property(e => e.AddedBy).HasColumnName("Added_by");
             entity.Property(e => e.AddedTime)
@@ -147,7 +147,7 @@ public partial class PracticContext : DbContext
             entity.ToTable("Portfolio");
 
             entity.Property(e => e.PortfolioId)
-                .ValueGeneratedNever()
+                .ValueGeneratedOnAdd()
                 .HasColumnName("Portfolio_ID");
             entity.Property(e => e.AddedBy).HasColumnName("Added_by");
             entity.Property(e => e.AddedTime)
@@ -177,7 +177,7 @@ public partial class PracticContext : DbContext
             entity.HasKey(e => e.TransactionsId).HasName("PK__Transact__6E23801FAA1FA166");
 
             entity.Property(e => e.TransactionsId)
-                .ValueGeneratedNever()
+                .ValueGeneratedOnAdd()
                 .HasColumnName("Transactions_ID");
             entity.Property(e => e.AddedBy).HasColumnName("Added_by");
             entity.Property(e => e.AddedTime)
@@ -219,7 +219,7 @@ public partial class PracticContext : DbContext
             entity.HasKey(e => e.UsersId).HasName("PK__Users__EB68290DD2AA3A98");
 
             entity.Property(e => e.UsersId)
-                .ValueGeneratedNever()
+                .ValueGeneratedOnAdd()
                 .HasColumnName("Users_ID");
             entity.Property(e => e.AddedBy).HasColumnName("Added_by");
             entity.Property(e => e.AddedTime)

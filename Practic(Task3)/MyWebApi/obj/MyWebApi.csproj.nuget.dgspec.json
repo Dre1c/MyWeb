@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\619se\\source\\repos\\MyWebApi\\MyWebApi.csproj": {}
+    "C:\\Users\\619se\\source\\repos\\Practic(Task3)\\MyWebApi\\MyWebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\619se\\source\\repos\\LibraryForPractik\\LibraryForPractik.csproj": {
+    "C:\\Users\\619se\\source\\repos\\Practic(Task3)\\LibraryForPractik\\LibraryForPractik.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\619se\\source\\repos\\LibraryForPractik\\LibraryForPractik.csproj",
+        "projectUniqueName": "C:\\Users\\619se\\source\\repos\\Practic(Task3)\\LibraryForPractik\\LibraryForPractik.csproj",
         "projectName": "LibraryForPractik",
-        "projectPath": "C:\\Users\\619se\\source\\repos\\LibraryForPractik\\LibraryForPractik.csproj",
+        "projectPath": "C:\\Users\\619se\\source\\repos\\Practic(Task3)\\LibraryForPractik\\LibraryForPractik.csproj",
         "packagesPath": "C:\\Users\\619se\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\619se\\source\\repos\\LibraryForPractik\\obj\\",
+        "outputPath": "C:\\Users\\619se\\source\\repos\\Practic(Task3)\\LibraryForPractik\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,6 +44,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.4.0, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.0.1, )"
@@ -75,14 +79,14 @@
         }
       }
     },
-    "C:\\Users\\619se\\source\\repos\\MyWebApi\\MyWebApi.csproj": {
+    "C:\\Users\\619se\\source\\repos\\Practic(Task3)\\MyWebApi\\MyWebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\619se\\source\\repos\\MyWebApi\\MyWebApi.csproj",
+        "projectUniqueName": "C:\\Users\\619se\\source\\repos\\Practic(Task3)\\MyWebApi\\MyWebApi.csproj",
         "projectName": "MyWebApi",
-        "projectPath": "C:\\Users\\619se\\source\\repos\\MyWebApi\\MyWebApi.csproj",
+        "projectPath": "C:\\Users\\619se\\source\\repos\\Practic(Task3)\\MyWebApi\\MyWebApi.csproj",
         "packagesPath": "C:\\Users\\619se\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\619se\\source\\repos\\MyWebApi\\obj\\",
+        "outputPath": "C:\\Users\\619se\\source\\repos\\Practic(Task3)\\MyWebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -103,8 +107,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\619se\\source\\repos\\LibraryForPractik\\LibraryForPractik.csproj": {
-                "projectPath": "C:\\Users\\619se\\source\\repos\\LibraryForPractik\\LibraryForPractik.csproj"
+              "C:\\Users\\619se\\source\\repos\\Practic(Task3)\\LibraryForPractik\\LibraryForPractik.csproj": {
+                "projectPath": "C:\\Users\\619se\\source\\repos\\Practic(Task3)\\LibraryForPractik\\LibraryForPractik.csproj"
               }
             }
           }
@@ -119,6 +123,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.4.0, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.0.1, )"

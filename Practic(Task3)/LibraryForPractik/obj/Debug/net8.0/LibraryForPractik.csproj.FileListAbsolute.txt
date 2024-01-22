@@ -12,3 +12,17 @@ C:\Users\619se\source\repos\LibraryForPractik\obj\Debug\net8.0\refint\LibraryFor
 C:\Users\619se\source\repos\LibraryForPractik\obj\Debug\net8.0\LibraryForPractik.pdb
 C:\Users\619se\source\repos\LibraryForPractik\obj\Debug\net8.0\LibraryForPractik.genruntimeconfig.cache
 C:\Users\619se\source\repos\LibraryForPractik\obj\Debug\net8.0\ref\LibraryForPractik.dll
+C:\Users\619se\source\repos\Practic(Task3)\LibraryForPractik\bin\Debug\net8.0\LibraryForPractik.deps.json
+C:\Users\619se\source\repos\Practic(Task3)\LibraryForPractik\bin\Debug\net8.0\LibraryForPractik.runtimeconfig.json
+C:\Users\619se\source\repos\Practic(Task3)\LibraryForPractik\bin\Debug\net8.0\LibraryForPractik.dll
+C:\Users\619se\source\repos\Practic(Task3)\LibraryForPractik\bin\Debug\net8.0\LibraryForPractik.pdb
+C:\Users\619se\source\repos\Practic(Task3)\LibraryForPractik\obj\Debug\net8.0\LibraryForPractik.csproj.AssemblyReference.cache
+C:\Users\619se\source\repos\Practic(Task3)\LibraryForPractik\obj\Debug\net8.0\LibraryForPractik.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\619se\source\repos\Practic(Task3)\LibraryForPractik\obj\Debug\net8.0\LibraryForPractik.AssemblyInfoInputs.cache
+C:\Users\619se\source\repos\Practic(Task3)\LibraryForPractik\obj\Debug\net8.0\LibraryForPractik.AssemblyInfo.cs
+C:\Users\619se\source\repos\Practic(Task3)\LibraryForPractik\obj\Debug\net8.0\LibraryForPractik.csproj.CoreCompileInputs.cache
+C:\Users\619se\source\repos\Practic(Task3)\LibraryForPractik\obj\Debug\net8.0\LibraryForPractik.dll
+C:\Users\619se\source\repos\Practic(Task3)\LibraryForPractik\obj\Debug\net8.0\refint\LibraryForPractik.dll
+C:\Users\619se\source\repos\Practic(Task3)\LibraryForPractik\obj\Debug\net8.0\LibraryForPractik.pdb
+C:\Users\619se\source\repos\Practic(Task3)\LibraryForPractik\obj\Debug\net8.0\LibraryForPractik.genruntimeconfig.cache
+C:\Users\619se\source\repos\Practic(Task3)\LibraryForPractik\obj\Debug\net8.0\ref\LibraryForPractik.dll

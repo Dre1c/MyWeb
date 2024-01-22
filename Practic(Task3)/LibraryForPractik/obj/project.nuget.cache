@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "ounPgtTb5K8EvI2/pwIRHHQGZ7cZ6d1QHUeZE06LS5+0J8pk+Z4vz+ZysG886HcoIBowQgWsGCafw+Tld8848A==",
+  "dgSpecHash": "dV91vQHy/PTFOBRNZfqCIBywUJ+6ieuzABKTgaOR+Y/ZfLYO9sYMOvwv0iUXe6WhIdUieGmZwgLe1zRkUzpTYQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\619se\\source\\repos\\LibraryForPractik\\LibraryForPractik.csproj",
+  "projectFilePath": "C:\\Users\\619se\\source\\repos\\Practic(Task3)\\LibraryForPractik\\LibraryForPractik.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\619se\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\619se\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\619se\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\619se\\.nuget\\packages\\mapster\\7.4.0\\mapster.7.4.0.nupkg.sha512",
+    "C:\\Users\\619se\\.nuget\\packages\\mapster.core\\1.2.1\\mapster.core.1.2.1.nupkg.sha512",
     "C:\\Users\\619se\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\619se\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
     "C:\\Users\\619se\\.nuget\\packages\\microsoft.codeanalysis.common\\4.5.0\\microsoft.codeanalysis.common.4.5.0.nupkg.sha512",
