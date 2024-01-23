@@ -4,7 +4,7 @@
         <name>MyWebApi</name>
     </assembly>
     <members>
-        <member name="M:MyWebApi.Controllers.AssetsController.GetAll(MyWebApi.ContractPortfolio.GetAssetsResponse)">
+        <member name="M:MyWebApi.Controllers.AssetsController.GetAll">
             <summary>
             Получить все записи
             </summary>
@@ -38,11 +38,33 @@
              <param name="request">актив</param>
              <returns></returns>
         </member>
+        <member name="M:MyWebApi.Controllers.AssetsController.Update(System.Int32,MyWebApi.ContractPortfolio.UpdateAssetsRequest)">
+             <summary>
+             Редактировать запись
+             </summary>
+              <remarks>
+             Пример запроса:
+            
+                 POST /Todo
+                 {
+                     "assetName" : "0",
+                     "currency" : "sdf",
+                     "assetType" : "0",
+                     "theDate" : "2024-01-19T08:57:13.353Z", 
+                     "addedTime": "2024-01-19T08:57:13.353Z",
+                     "addedBy": 0
+                 }
+            
+             </remarks>
+             <param name="id">Актив</param>
+             <param name="update">Актив</param>
+             <returns></returns>
+        </member>
         <member name="M:MyWebApi.Controllers.AssetsController.Delete(System.Int32)">
             <summary>
             Удалить все записи 
             </summary>
-            <param name="id">актив</param>
+            <param name="id"></param>
             <returns></returns>
         </member>
         <member name="M:MyWebApi.Controllers.LotController.GetAll">
